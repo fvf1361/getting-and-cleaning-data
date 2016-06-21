@@ -1,5 +1,5 @@
 ### Final project of "getting and cleaning data"
-#### file contents
+#### repository contents
 this reposoitory contains the following items
 - `readme.md`
 - `codebook.md` : describes the variables, the data, and any transformations or work performed to clean up the data

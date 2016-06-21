@@ -60,3 +60,13 @@ These measurements are performed multiple times on each subject, and during seve
 #### tidy data
 Includes only the `mean` and `std` variables. the original data contaings repeated measurements for each `subject` and each `activity`.
 In the tidy dataset, the average of measurements per `subject`, per `activity` are calculated and reported.
+
+#### workflow processes
+- training and test data sets are read into tables, and appropriate column names are assigned for `subject` and `activity`
+- the tables are merged using `rbind` command
+- feature labels are read into a table, and columns with words `mean` or `std` are selected using the `grep` command
+- a smaller subset of data from selected columns is created
+- activity labels are read into a table, and are substituded for the activity numbers using `mapvalues` command
+- variable names are inserted in the smaller data set
+- the `melt` and `dcast` commands are used to re-shape the data and populate average values for each variable.
+- the final tidy data set is written into a text file.

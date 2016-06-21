@@ -58,7 +58,7 @@ These measurements are performed multiple times on each subject, and during seve
 * `LAYING`: subject laying down
 
 #### tidy data
-Includes only the `mean` and `std` variables. the original data contaings repeated measurements for each `subject` and each `activity`.
+Includes only the `mean` and `std` variables. the original data contains repeated measurements for each `subject` and each `activity`.
 In the tidy dataset, the average of measurements per `subject`, per `activity` are calculated and reported.
 
 #### workflow processes

@@ -11,10 +11,10 @@ this reposoitory contains the following items
 download the data from the following address:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-unzip the contents, and change your working directory to the follwing folder within the data package:
+unzip the contents, and change your working directory to the following folder within the data package:
 `UCI HAR Dataset`
 
-The R script does the following in the same order:
+The R script does the following steps:
 - loading the required libraries
 - reading in the data
 - merging the training and test sets
